@@ -47,6 +47,10 @@
             Console.WriteLine("Maximum element: " + maximum);
             Console.WriteLine("Minimum element: " + minimum);
 
+            Console.WriteLine("_______________________________");
+            Console.WriteLine("Pattern Example");
+            PatternProgram1.PatternMethod();
+
         }
     }
 }
