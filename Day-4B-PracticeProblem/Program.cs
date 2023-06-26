@@ -63,6 +63,13 @@
 
             Console.WriteLine("Original string: " + input);
             Console.WriteLine("Reversed string: " + reversed);
+
+            Console.WriteLine("______________________________________");
+            Console.WriteLine("Find The Sum Of Each Digit Of Number");
+            int number = 12345;
+            int sum = SumOfDigits.SumOfDigitsMethod(number);
+
+            Console.WriteLine("Sum of digits: " + sum);
         }
     }
 }
