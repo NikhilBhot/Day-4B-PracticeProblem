@@ -1,5 +1,7 @@
 ﻿namespace Day_4B_PracticeProblem
 {
+    //Write a program in C# Sharp to count the frequency of each element of an
+    //array.
     public class Program
     {
         public static void Main(string[] args)
@@ -35,6 +37,16 @@
             {
                 Console.WriteLine("{0}: {1}", pair.Key, pair.Value);
             }
+            Console.WriteLine("_____________________________________________");
+            Console.WriteLine("Find Maximum and Minimum Elemets From Array");
+            int[] arr4 = { 5, 2, 9, 1, 7, 4, 6, 3, 8 };
+
+            int maximum = FindMaxMinfromArray.FindMaximum(arr4);
+            int minimum = FindMaxMinfromArray.FindMinimum(arr4);
+
+            Console.WriteLine("Maximum element: " + maximum);
+            Console.WriteLine("Minimum element: " + minimum);
+
         }
     }
 }
