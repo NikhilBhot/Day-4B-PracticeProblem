@@ -56,6 +56,13 @@
             Console.WriteLine("Pattern Example");
             PatternProgram2.PatternProgram2Method();
 
+            Console.WriteLine("______________________");
+            Console.WriteLine("Reverse Of Word From String");
+            string input = "Hello World, OpenAI is awesome!";
+            string reversed = ReverseWordFromString.ReverseWords(input);
+
+            Console.WriteLine("Original string: " + input);
+            Console.WriteLine("Reversed string: " + reversed);
         }
     }
 }
