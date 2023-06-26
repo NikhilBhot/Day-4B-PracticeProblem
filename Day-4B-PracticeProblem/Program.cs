@@ -70,6 +70,10 @@
             int sum = SumOfDigits.SumOfDigitsMethod(number);
 
             Console.WriteLine("Sum of digits: " + sum);
+
+            Console.WriteLine("_____________________________________");
+            Console.WriteLine("find the sum of each row of the matrix.");
+            Matrix.MatrixMethod();
         }
     }
 }
