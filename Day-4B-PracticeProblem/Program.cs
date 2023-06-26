@@ -50,6 +50,11 @@
             Console.WriteLine("_______________________________");
             Console.WriteLine("Pattern Example");
             PatternProgram1.PatternMethod();
+            
+            
+            Console.WriteLine("_______________________________");
+            Console.WriteLine("Pattern Example");
+            PatternProgram2.PatternProgram2Method();
 
         }
     }
